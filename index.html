@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Viki Auto Complete</title>
+	<link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+	<form action="https://www.viki.com/search" target="_blank">
+		<input type="text" name="q" id="search" />
+	</form>
+	
+	<ul class="navbar-search-results" style='display:none;'>
+		<li class="media">
+			<a href="" class="vkal-search-autocomplete" target="_blank">
+    			<span class="media-object pull-left">
+					<img src="" class="thumbnail-tiny" height="40" width="70">
+	    		</span>
+			    <div class="media-body"></div>
+			</a>
+		</li>
+		<li class="media">
+			<a href="/search?q=a" class="search-results-action vkal-search-see-results">View all results</a>
+		</li>
+	</ul>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
